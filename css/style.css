@@ -1,0 +1,247 @@
+/* Studio page */
+
+.section-hero {
+  color: var(--white-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  background-color: #2f303a;
+  max-width: 1600px;
+}
+
+.hero-container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.hero-title {
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  min-width: 200px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  padding-left: 32px;
+
+  border-radius: 4px;
+
+  color: var(--white-text-color);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  text-transform: initial;
+  background-color: var(--accent-color);
+}
+
+.sr-only {
+  position: absolute;
+  margin: -1px 0 0 -1px;
+  padding: 0;
+  display: block;
+  width: 1px;
+  height: 1px;
+  font-size: 1px;
+  line-height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+  outline: 0;
+}
+
+.advan-container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.advan-list {
+  display: flex;
+}
+
+.section-title {
+  text-align: center;
+  color: var(--title-text-color);
+
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+
+.advan-title {
+  margin-bottom: 10px;
+
+  color: var(--title-text-color);
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advan-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.advan-text {
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.7;
+}
+
+.img-container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: 94px;
+}
+
+.img-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.img-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
+.team-item li {
+  border-radius: 0px 0px 4px 4px;
+  background: var(--backgound-color);
+}
+
+.team-img {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.team-list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.team-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.team-title {
+  text-align: center;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  color: var(--title-text-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.team-text {
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.2;
+}
+
+/* PORTFOLIO */
+
+.portfolio-container {
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+  padding-top: 94px;
+  box-sizing: content-box;
+}
+
+.buttons {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.button-list {
+  display: flex;
+  margin-bottom: 34px;
+  justify-content: center;
+}
+
+.button-items:not(:last-child) {
+  margin-right: 8px;
+}
+
+.button-items {
+  padding-right: 22px;
+  padding-left: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+
+.button-text {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.6;
+  border: none;
+  background: transparent;
+}
+
+.work-examples-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.work-examples-item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.image-signing {
+  padding: 20px 24px;
+}
+
+.portfolio-title {
+  margin-bottom: 4px;
+
+  color: var(--title-text-color);
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  line-height: 2;
+}
+
+.portfolio-text {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 1.9;
+}
