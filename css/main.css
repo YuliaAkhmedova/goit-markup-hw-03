@@ -56,9 +56,6 @@ img {
   margin-right: 50px;
 }
 
-.navigation-items {
-}
-
 .contact-items:not(:last-child) {
   margin-right: 50px;
 }
@@ -149,6 +146,7 @@ img {
   padding-top: 0;
   margin-bottom: 20px;
 }
+
 .logo-studio {
   color: var(--white-text-color);
   font-family: Raleway, sans-serif;
