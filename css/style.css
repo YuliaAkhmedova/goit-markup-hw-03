@@ -1,27 +1,31 @@
 /* Studio page */
 
+.hero-container {
+  width: 1170px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
 .section-hero {
+  /* max-width: 1600px; */
+  text-align: center;
+  background-color: #2f303a;
+}
+
+.hero-title {
   color: var(--white-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  background-color: #2f303a;
-  max-width: 1600px;
-}
-
-.hero-container {
-  width: 1170px;
-  padding-right: 15px;
-  padding-left: 15px;
-  text-align: center;
-  padding-top: 200px;
-  padding-bottom: 200px;
-}
-
-.hero-title {
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .button {
@@ -60,12 +64,18 @@
   outline: 0;
 }
 
+.advan {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .advan-container {
   width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
 }
 
 .advan-list {
@@ -103,11 +113,16 @@
   line-height: 1.7;
 }
 
+.what-we-do {
+  padding-bottom: 94px;
+}
+
 .img-container {
   width: 1170px;
   padding-right: 15px;
   padding-left: 15px;
-  padding-bottom: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .img-list {
@@ -119,12 +134,17 @@
   margin-right: 30px;
 }
 
+.team {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .team-container {
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .team-item li {
@@ -172,14 +192,14 @@
   width: 1170px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 94px;
-  padding-top: 94px;
+  margin-right: auto;
+  margin-left: auto;
   box-sizing: content-box;
 }
 
 .buttons {
-  margin-right: auto;
-  margin-left: auto;
+  padding-bottom: 94px;
+  padding-top: 94px;
 }
 
 .button-list {
